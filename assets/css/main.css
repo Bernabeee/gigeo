@@ -2811,7 +2811,7 @@ input[type=button].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: none;
   z-index: 1000;
   display: none;
   float: left;
@@ -9667,19 +9667,22 @@ img {
   max-width: 100%;
 }
 
-@media only screen and (min-width: 1200px) {
-  body {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
+/**@media only screen and (min-width: 1200px) {
+
+    body { 
+        width: 1200px;
+        margin: 0 auto;
+
+    }
+}**/
 /*componente de boton*/
 .button {
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
+  height: 3.3rem;
 }
 
 .button_primary {
@@ -9692,6 +9695,45 @@ img {
 }
 .button_primary:focus {
   background-color: #bec1bb;
+}
+
+.dropdown-menu {
+  right: 5% !important;
+  left: none !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav__logo--size {
+  width: 150px;
+}
+
+.miniatura {
+  border-radius: 7rem;
+}
+
+.miniatura--size {
+  width: 100px;
+  height: auto;
+}
+
+.header--background {
+  background-image: url(../images/image-banner.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header--size {
+  height: 40vh;
+  width: 100vw;
+}
+
+.header--border {
+  border-bottom: 1px solid;
 }
 
 /*# sourceMappingURL=main.css.map */

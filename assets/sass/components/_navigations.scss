@@ -1,0 +1,12 @@
+.dropdown-menu {
+    right: 5% !important;
+    left: none !important;
+
+}
+.dropdown-toggle::after {
+    display:none;
+}
+
+.nav__logo--size {
+    width: 150px;
+}
