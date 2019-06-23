@@ -12,5 +12,33 @@
 }
 
 .header--border {
-    border-bottom: 1px solid 
+    border-bottom: 1px solid $platinum;
+
+}
+
+.titulo--spacing {
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .articulos--space { 
+        padding: 0rem 3rem;
+    }
+
+    .ocultar__mobile {
+        display: none !important;
+    }
+
+    .user-position--center {
+        -webkit-box-pack: center!important;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    .titulo--spacing {
+        text-align: center;
+        
+    }
+
 }

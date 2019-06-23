@@ -17,11 +17,32 @@
     background-color: $blue-bell;
 
     &:hover {
-        background-color: $papel-lavender;
+        background-color: $soap;
+        color: $outer-space;
 
     }
 
     &:focus {
-        background-color: $gray;
+        background-color: $papel-lavender;
+        color: $outer-space;
     }
 }
+
+
+.button_secundary {
+    border: none;
+    color: $white;
+    background-color: $red;
+
+    &:hover {
+        background-color: $red-dos;
+        color: $outer-space;
+
+    }
+
+    &:focus {
+        background-color: $red-tres;
+        color: $outer-space;
+    }
+}
+
